@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Journey Information Title -->
+    <TextView
+        android:id="@+id/journeyDetailsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Journey Details"
+        android:textSize="24sp"
+        android:textColor="#00796B"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Source and Destination Text -->
+    <TextView
+        android:id="@+id/sourceAndDestinationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source to Destination"
+        android:textSize="18sp"
+        android:textColor="#00796B"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Visa Requirement -->
+    <TextView
+        android:id="@+id/visaRequirementText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visa Required: No"
+        android:textSize="18sp"
+        android:textColor="#00796B"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Distance to Next Stop -->
+    <TextView
+        android:id="@+id/distanceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance to Next Stop: 500 km"
+        android:textSize="18sp"
+        android:textColor="#00796B"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Button to Switch Between Kilometers/Miles -->
+    <Button
+        android:id="@+id/switchUnitButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Switch Units (Km/Miles)"
+        android:textColor="#FFFFFF"
+        android:background="#00796B"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to Mark Next Stop -->
+    <Button
+        android:id="@+id/nextStopButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Next Stop Reached"
+        android:textColor="#FFFFFF"
+        android:background="#00796B"
+        android:textSize="18sp"/>
+</LinearLayout>

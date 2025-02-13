@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#E0F7FA">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Source and Destination"
+        android:textSize="24sp"
+        android:textColor="#00796B"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Source input -->
+    <EditText
+        android:id="@+id/sourceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Source"
+        android:padding="12dp"
+        android:background="#ffffff"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Destination input -->
+    <EditText
+        android:id="@+id/destinationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination"
+        android:padding="12dp"
+        android:background="#ffffff"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Start Journey Button -->
+    <Button
+        android:id="@+id/startJourneyButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Start Journey"
+        android:textColor="#FFFFFF"
+        android:background="#00796B"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
